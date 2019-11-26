@@ -1,53 +1,50 @@
 package ByteByByte;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
-
 public class KthMostFrequentString
 {
-    public static void main(String args[]){
+    public static void main(String args[])
+    {
         String arr[] = {"a", "a", "b", "c", "b", "c", "b", "c", "d"};
         int k = 0;
 
         KthMostFrequentString kth = new KthMostFrequentString();
-        String result = kth.getMostFrequentString(arr, k);
+        String result = kth.getKthMostFrequentString(arr, k);
         System.out.println(result);
     }
 
-    private String getMostFrequentString(String[] arr, int k)
+    public static String getKthMostFrequentString(String[] str, int k)
     {
-        if(arr == null || arr.length == 0){
-            return null;
-        }
 
-        if(k < 0){
+        if (str == null || str.length == 0) {
             throw new IllegalArgumentException();
         }
 
         Map<String, Integer> map = new HashMap<>();
 
-        for(String s : arr){
-            map.put(s, map.getOrDefault(s, 0) + 1) ;
+        for (String s : str) {
+            map.put(s, map.getOrDefault(s, 0) + 1);
         }
 
-        List<Entry> list = new ArrayList<>(map.entrySet());
-        Collections.sort(list, new Comparator<Entry>()
+        List<Map.Entry<String, Integer>> list = new ArrayList<>(map.entrySet());
+
+        Collections.sort(list, new Comparator<Map.Entry<String, Integer>>()
         {
             @Override
-            public int compare(Entry o1, Entry o2)
+            public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2)
             {
-                Integer v1 = (Integer) o1.getValue();
-                Integer v2 = (Integer) o2.getValue();
+                Integer v1 = o1.getValue();
+                Integer v2 = o2.getValue();
                 return -1 * v1.compareTo(v2);
             }
         });
 
-        return k > list.size() ? null : (String) list.get(k).getKey();
+        return k > list.size() ? null : list.get(k).getKey();
+
     }
 }
