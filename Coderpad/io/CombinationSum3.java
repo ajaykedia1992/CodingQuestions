@@ -13,7 +13,7 @@ package Coderpad.io;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CombinationSum1
+public class CombinationSum3
 {
     public List<List<Integer>> combinationSum3(int k, int n) {
         List<List<Integer>> res = new ArrayList<>();
@@ -43,7 +43,7 @@ public class CombinationSum1
     public static void main(String args[]){
         int k = 3;
         int n = 9;
-        CombinationSum1 c = new CombinationSum1();
+        CombinationSum3 c = new CombinationSum3();
         List<List<Integer>> result = c.combinationSum3(k , n);
         for(List<Integer> l : result){
             System.out.println(l);

@@ -19,7 +19,7 @@ package Coderpad.io;
 
 import java.util.Arrays;
 
-public class CombinationSum2
+public class CombinationSum4
 {
     public int combinationSum4(int[] nums, int target) {
         int[] memo = new int[target + 1];
@@ -46,7 +46,7 @@ public class CombinationSum2
     public static void main(String args[]){
         int[] nums = {1, 2, 3};
         int target = 2;
-        CombinationSum2 c = new CombinationSum2();
+        CombinationSum4 c = new CombinationSum4();
         System.out.println(c.combinationSum4(nums, target));
     }
 }
