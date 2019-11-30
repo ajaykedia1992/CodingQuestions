@@ -2,7 +2,7 @@
 find the unique path from top left cell to bottom right cell.
  */
 
-package Coderpad.io;
+package Facebook;
 
 public class UniquePath
 {

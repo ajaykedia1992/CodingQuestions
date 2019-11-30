@@ -9,7 +9,7 @@ Input : arr[] = {1, 1, 1, 1, 1, 1}
 Output : 6
 The sub array is {1, 1, 1, 1, 1, 1}
  */
-package Coderpad.io;
+package Facebook;
 
 public class LargestSumWithAtleastKNumbers
 {

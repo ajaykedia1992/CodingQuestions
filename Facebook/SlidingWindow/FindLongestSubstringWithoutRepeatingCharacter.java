@@ -1,4 +1,4 @@
-package Coderpad.io.SlidingWindow;
+package Facebook.SlidingWindow;
 
 public class FindLongestSubstringWithoutRepeatingCharacter
 {

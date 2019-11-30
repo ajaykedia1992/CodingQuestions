@@ -1,4 +1,4 @@
-package Coderpad.io;
+package Facebook;
 
 public class LongestSubstringWithAtleastKRepeatingCharacter
 {public static void main(String args[]) {

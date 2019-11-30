@@ -3,7 +3,7 @@
 0-> Water Body
 Find the number of island exists.
  */
-package Coderpad.io;
+package Facebook;
 
 public class NumberOfIsland
 {

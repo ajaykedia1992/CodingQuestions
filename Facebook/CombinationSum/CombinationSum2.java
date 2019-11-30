@@ -18,7 +18,7 @@ A solution set is:
   [5]
 ]
  */
-package Coderpad.io.CombinationSum;
+package Facebook.CombinationSum;
 
 import java.util.ArrayList;
 import java.util.Arrays;

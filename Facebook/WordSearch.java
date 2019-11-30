@@ -1,7 +1,7 @@
 /*
 Given a 2D matrix with alphabets and you have to search for a word in that matrix. You can move all 4 directions
  */
-package Coderpad.io;
+package Facebook;
 
 public class WordSearch
 {

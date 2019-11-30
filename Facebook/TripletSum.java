@@ -4,7 +4,7 @@ You can use a number more than once
 Only Integers are allowed
 Output: Distinct ones
  */
-package Coderpad.io;
+package Facebook;
 
 import java.util.ArrayList;
 import java.util.Arrays;
