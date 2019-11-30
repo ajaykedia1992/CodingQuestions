@@ -40,7 +40,7 @@ public class CombinationSum
     }
 
     public void combinationSumUtil(int[] candidates, int target, List<List<Integer>> result, List<Integer> temp,
-                                   int sum, int curr) {
+                                   int sum, int index) {
         if (sum == target) {
             result.add(new ArrayList<>(temp));
             return;
@@ -50,7 +50,7 @@ public class CombinationSum
             return;
         }
 
-        for (int i = curr; i < candidates.length; i++) {
+        for (int i = index; i < candidates.length; i++) {
             temp.add(candidates[i]);
             combinationSumUtil(candidates, target, result, temp, sum + candidates[i], i);
             temp.remove(temp.size() - 1);
