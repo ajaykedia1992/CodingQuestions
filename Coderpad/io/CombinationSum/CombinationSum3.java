@@ -8,7 +8,7 @@ Example 2:
 Input: k = 3, n = 9
 Output: [[1,2,6], [1,3,5], [2,3,4]]
  */
-package Coderpad.io;
+package Coderpad.io.CombinationSum;
 
 import java.util.ArrayList;
 import java.util.List;

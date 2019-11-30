@@ -15,7 +15,7 @@ Note that different sequences are counted as different combinations.
 
 Therefore the output is 7.
  */
-package Coderpad.io;
+package Coderpad.io.CombinationSum;
 
 import java.util.Arrays;
 

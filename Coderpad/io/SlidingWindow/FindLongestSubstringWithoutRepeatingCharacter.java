@@ -1,9 +1,9 @@
-package Coderpad.io;
+package Coderpad.io.SlidingWindow;
 
 public class FindLongestSubstringWithoutRepeatingCharacter
 {
     public static void main(String args[]){
-        String s = "abcabcbebda";
+        String s = "mbcabcbebda";
         System.out.println(findLongestSubstringWithoutRepeatingCharacter(s));
     }
 
