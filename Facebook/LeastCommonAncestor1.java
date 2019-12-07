@@ -66,3 +66,11 @@ public class LeastCommonAncestor1
         return leftLCS != null ? leftLCS : rightLCS;
     }
 }
+
+/*
+            1
+           / \
+          2   3
+        / \  / \
+       4  5 6   7
+ */
