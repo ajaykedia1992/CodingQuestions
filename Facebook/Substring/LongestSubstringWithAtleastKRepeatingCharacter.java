@@ -1,4 +1,4 @@
-package Facebook;
+package Facebook.Substring;
 
 public class LongestSubstringWithAtleastKRepeatingCharacter
 {public static void main(String args[]) {

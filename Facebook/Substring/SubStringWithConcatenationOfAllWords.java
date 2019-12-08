@@ -1,4 +1,4 @@
-package Facebook;
+package Facebook.Substring;
 
 import java.util.ArrayList;
 import java.util.HashMap;
