@@ -1,4 +1,4 @@
-package Facebook;
+package Facebook.Iterator;
 
 public class Tree
 {
