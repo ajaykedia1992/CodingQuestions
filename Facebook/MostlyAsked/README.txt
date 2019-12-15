@@ -1,4 +1,4 @@
-1. Valid Anagram
+1. Valid Anagram - Done
 2. Valid Parenthesis
 3. Best Time to Buy and Sell Stock with atmost one transaction
 4. Two Sum
