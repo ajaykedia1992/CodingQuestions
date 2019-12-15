@@ -25,7 +25,7 @@ public class PermutationOfString
         }
         else{
             for(int i = 0; i< suffix.length(); i++){
-                getPermutationUtil(prefix + suffix.charAt(i), suffix.substring(0, i) + suffix.substring(i + 1, suffix.length()), arrayList);
+                getPermutationUtil(prefix + suffix.charAt(i), suffix.substring(0, i) + suffix.substring(i + 1), arrayList);
             }
         }
     }
