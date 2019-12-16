@@ -5,7 +5,7 @@ INF - > Empty Room
 Find the path to its nearest gate
  */
 
-package Facebook;
+package Facebook.MostlyAsked;
 
 import java.util.Arrays;
 
