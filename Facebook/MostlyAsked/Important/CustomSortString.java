@@ -1,4 +1,4 @@
-package Facebook.MostlyAsked;
+package Facebook.MostlyAsked.Important;
 
 import java.util.HashMap;
 import java.util.Map;
