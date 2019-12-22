@@ -2,10 +2,10 @@ package Facebook.PreviousInterviews;
 
 public class LinkedList
 {
-    int val;
-    LinkedList next;
+    public int val;
+    public LinkedList next;
 
-    LinkedList(int val){
+    public LinkedList(int val){
         this.val = val;
         this.next = null;
     }
