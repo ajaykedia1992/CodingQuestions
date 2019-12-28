@@ -1,4 +1,4 @@
-package Facebook;
+package Top50FacebookQuestions;
 
 public class PartitionEqualSubsetSum
 {
