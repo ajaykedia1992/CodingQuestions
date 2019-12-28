@@ -1,4 +1,6 @@
 /*
+https://www.youtube.com/watch?v=WqV-pxNUAYA&t=1292s
+How to find a valid order to build a list of packages with their dependencies.
    1------
   /        \
 0           ---3 --- 4
