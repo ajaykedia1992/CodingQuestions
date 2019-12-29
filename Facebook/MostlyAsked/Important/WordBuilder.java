@@ -46,8 +46,9 @@ public class WordBuilder {
 
             char[] arr = word.toCharArray();
             for (int i = 0; i < arr.length; i++) {
+                char temp = arr[i];
                 for (char c = 'a'; c <= 'z'; c++) {
-                    char temp = arr[i];
+
                     if (arr[i] != c) {
                         arr[i] = c;
                     }
@@ -57,9 +58,8 @@ public class WordBuilder {
                         queue.add(new WordNode(newWord, top.numSteps + 1));
                         wordDict.remove(newWord);
                     }
-
-                    arr[i] = temp;
                 }
+                arr[i] = temp;
             }
         }
 
