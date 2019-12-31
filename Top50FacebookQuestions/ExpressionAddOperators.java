@@ -48,6 +48,8 @@ public class ExpressionAddOperators
         }
 
         for(int i = index; i < num.length(); i++){
+
+            // 0 + ....  but not this one 08 + ....
             if(i != index && num.charAt(index) == '0') break;
 
             long curr = Long.parseLong(num.substring(index, i + 1));
