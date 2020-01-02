@@ -56,7 +56,6 @@ public class InorderSuccessor
 
     private Tree findMinimum(Tree node)
     {
-        Tree curr = node;
         while(node.left != null){
             node = node.left;
         }
