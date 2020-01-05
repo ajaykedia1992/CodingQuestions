@@ -19,8 +19,8 @@ import java.util.PriorityQueue;
 public class RearrangeStringKDistanceApart
 {
     public static void main(String args[]){
-        String s = "a";
-        int k = 0;
+        String s = "aaabbccc";
+        int k = 2;
         RearrangeStringKDistanceApart r = new RearrangeStringKDistanceApart();
         System.out.println(r.rearrangeString(s, k));
     }
