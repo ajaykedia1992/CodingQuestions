@@ -1,4 +1,4 @@
-package Facebook;
+package Top50FacebookQuestions;
 
 import java.util.Arrays;
 
@@ -9,6 +9,7 @@ public class BoxStacking
                 {3, 2, 5},
                 {1, 2, 4}
         };
+
         BoxStacking b = new BoxStacking();
         int maxHeight = b.getMaxHeight(boxes);
         System.out.println(maxHeight);
@@ -20,7 +21,6 @@ public class BoxStacking
             return 0;
         }
         int[][] allBoxes = getAllRotation(boxes);
-
         for(int[] a : allBoxes){
             System.out.println(Arrays.toString(a));
         }
@@ -30,7 +30,6 @@ public class BoxStacking
             res[i] = allBoxes[i][2];
             index[i] = i;
         }
-
         return getMaxHeight(allBoxes, res);
     }
 
